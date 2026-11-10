@@ -1,0 +1,16 @@
+{
+  "name": "ai-chat-sse-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node + Express + SSE + React 的流式 AI 聊天教学项目（阿里云百炼）",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "node scripts/dev.mjs --server",
+    "dev:client": "node scripts/dev.mjs --client",
+    "smoke": "node scripts/dev.mjs --smoke"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
